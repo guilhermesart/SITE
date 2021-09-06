@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: 0;
+    border: 1px solid rgb(0, 0, 0);
+    background:rgba(3, 121, 255, 0.678);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 20px;
+}
+
+header {
+    padding: 20px 0;
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url(https://www.segueviagem.com.br/wp-content/uploads/2019/06/Burj-Al-Arab-Dubai-Emirados-%C3%81rabes-Unidos-Foto-Mattharvey.jpg);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+header nav p {
+    padding: 0 20px;
+    font-weight: bold;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    color: black;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 110px auto;
+    text-align: center;
+    color: white;
+}
+
+.header-content p {
+    font-size: 29px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.pacotes {
+    background: #fcfcfd;
+    padding: 15px;
+}
+
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    color: white;
+}
+
+.card-single{
+    border: 0.7px solid rgb(107, 105, 105);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.6s;
+    background-color: rgb(241, 250, 250);
+}
+
+.card-single:hover{
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.384);
+}
+
+.card-single img{
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.card-single h4 {
+    font-size: 20px;
+    color: black;
+    padding: 0 10px;
+}
+
+.desconto{
+    height: 30px;
+    position: absolute;
+    background: #67db9b;
+    border-radius: 8px 0 0 8px;
+    top: 20px;
+    padding: 10px;
+    left: 196px;
+}
+
+.desconto p {
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: -5px;
+    color: white
+}
+
+
+.preco{
+    height: 30px;
+    position: absolute;
+    background: #244edac2;
+    border-radius: 10px;
+    top: 180px;
+    padding: 10px;
+    
+}
+
+.preco p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -5px;
+    color: white
+}
+
+.card-single ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.card-single ul li {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: left;
+    margin: 3px 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+
+.card-single li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+
+
+
+.servicos{
+    background: #fcfcfd;
+    padding: 15px;
+}
+
+.servicos h1 {
+    text-align: center;
+}
+
+.servicos .servicos-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.servicos .s-card{
+    margin-top: 20px;
+    width: 400px;
+    height: 330px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.s-card {
+    color: black;
+    padding: 30px;
+}
+
+.s-card h1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.s-card ion-icon{
+    font-size: 64px;
+    margin-left: 135px;
+    
+}
+
+.s-card p{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.saiba{
+    padding: 10px 25px;
+    font-weight: bold;
+    border: 0;
+    border: 1px solid rgb(0, 0, 0);
+    background:transparent;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 110px;
+}
+
+.redes{
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.redes iframe{
+    width: 100%;
+
+}
+
+.mais{
+    background-color: rgb(59, 58, 58);
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 30px;
+    border-radius: 15px 15px 15px 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+.mais h1{
+    text-align: center;
+}
+
+.mais li {
+    font-size: 12px;
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.mais svg{
+    width: 16px;
+    height: 16px;
+}
+
+
+.copy{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+}
+
+.copy-title{
+    color: black;
+    margin-top:-1px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
